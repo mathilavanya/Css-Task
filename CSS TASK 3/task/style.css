@@ -1,0 +1,313 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.div-1{
+    display: flex;
+    font-size: 18px;
+    margin-left: 120px;
+}
+.h4{
+    margin-top: 45px;
+}
+.nav{
+    display: flex;
+    margin-left:100px;
+    gap: 10px;
+    margin-top: 25px;
+}
+
+.bxs-down-arrow{
+   font-size: 10px;
+   margin-left: 1%;
+   
+}
+.color{
+    color: gray;
+}
+.cart{
+   display: flex;
+   margin-left: 750px;
+   text-align: center;
+   height: 40px;
+   margin-top: 30px;
+   padding: 10px;
+}
+.order{
+    font-size: medium;
+}
+.bx-radio-circle-marked{
+    font-size:20px;
+}
+.bxs-cart{
+    margin-right: 5px;
+}
+header{
+    background-color:#252525;
+    text-align: center;
+    padding: 50px;
+    margin-top: 20px;
+}
+header h1{
+    color: whitesmoke;
+}
+header h5{
+    color: gray;
+}
+main{
+    display: grid;
+    gap: 40px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 8%;
+}
+.box-1{
+    border: 1px solid #efe5e5;
+   padding-bottom: 110px;
+    
+}
+.photo{
+    width: 100%;
+    height: 160px;
+}
+.grid{
+    text-align: center;
+}
+
+footer{
+    background-color:#252525;
+    text-align: center;
+    padding: 40px;
+
+   
+}
+footer p{
+    color: #ffffff;
+}
+.bxs-star{
+    color: #ffd700;
+}
+.view{
+    margin-top: 13px;
+}
+.sale{
+    position: absolute;
+    background-color: black;
+    color: white;
+    left: 240px;
+    border-radius: 10%;
+    padding: 1%;
+    
+}
+.lav{
+    position: relative;
+    
+}
+.div-2{
+    position: relative;
+    margin-left: 60%;
+    margin-top: 18px;
+    display: none;
+}
+
+.menu li{
+    list-style-type: none;
+    color: black;
+    padding: 1rem;
+}
+.div-2:hover .menu{
+ visibility: visible;
+ display: block;
+}
+
+
+.menu{
+    top: 15px;
+    position: absolute;
+    visibility: hidden;
+    margin-top: 15px;
+    width: 150px;
+    right: 5px;
+    background-color: white;
+    text-align: center;
+}
+
+@media screen and (max-width:1024px) {
+    .cart{
+        margin-left: 300px;
+      
+}
+.sale{
+    left: 140px;
+}
+}
+@media screen and (max-width:768px) {
+    .cart{
+        margin-left:170px;
+    }
+    .sale{
+        left:260px;
+    }
+   .photo{
+width: 100%;
+    }
+    .div-1{
+        margin-left: 70px;
+    }
+    .nav{
+        margin-left: 30px;
+        margin-top: 26px;
+    }
+    main{
+    grid-template-columns: 1fr 1fr;
+    }
+}
+ @media  screen and (max-width:426px) {
+    main{
+        grid-template-columns: 1fr;
+         margin-left: 45%;
+        display: grid;
+        gap: 35px;
+    }
+    .cart{
+        visibility: hidden;
+    }
+    .nav{
+        visibility: hidden;
+    }
+    body{
+        overflow-x: hidden;
+    }
+    .h4{
+        font-size: 18px;
+        width: 200%;
+        margin-top: 28px;
+       
+        
+    }
+   header{
+    width: 117.5%;
+   }
+   footer{
+    width: 122%;
+   }
+   .sale{
+        left: 152px;
+    }
+    .div-2{
+        display: flex;
+        visibility: visible;
+        margin-left: 123%;
+        margin-top: -15%;
+    }
+    .bx-menu{
+        font-size: 25px;
+    }
+    
+    
+} 
+@media  screen and (max-width:320px) {
+    body{
+        overflow-x: hidden;
+    }
+
+    .h4{
+        
+        font-size: 18px;
+    }
+    .nav{
+        display: none;
+    }
+    .cart{
+        display: none;
+    }
+    header{
+        width: 100%;
+    }
+    
+    .sale{
+        left:350px;
+    }
+    main{
+        grid-template-columns: 1fr;
+        margin-left: -500%;
+        display: grid;
+        gap: 35px;
+    }
+    .box-1{
+        width: 200%;
+    }
+    .photo{
+        width: 100%;
+    }
+    footer{
+        width: 106.5%;
+    }
+    .div-1{
+        margin-left: 27px;
+    }
+    .div-2{
+        display: flex;
+        visibility: visible;
+        margin-left: 133%;
+        margin-top: -15%;
+    }
+    .bx-menu{
+        font-size: 25px;
+    }
+    
+}
+@media  screen and (max-width:376px) {
+    body{
+        overflow-x: hidden;
+    }
+
+    .h4{
+        margin-left: 10px;
+        
+        font-size: 18px;
+    }
+    .nav{
+        display: none;
+    }
+    .cart{
+        display: none;
+    }
+    header{
+        width: 144.5%;
+    }
+    
+    .sale{
+        left:339px;
+    }
+    main{
+        grid-template-columns: 1fr;
+        margin-left: 40%;
+        display: grid;
+        gap: 30px;
+    }
+    .box-1{
+        width: 200%;
+    }
+    .photo{
+        width: 100%;
+    }
+    footer{
+        width: 149.7%;
+    }
+    .div-1{
+        margin-left: 27px;
+    }
+    .div-2{
+        display: flex;
+        visibility: visible;
+        margin-left: 143%;
+        margin-top: -15%;
+    }
+    .bx-menu{
+        font-size: 25px;
+    }
+    
+}
